@@ -1,0 +1,56 @@
+- type: job
+  id: SiteAdminstrator
+  name: job-name-siteadminstrator
+  description: $
+  setPreference: false
+  startingGear: SiteAdminstratorGear
+  icon: "JobIconNanotrasen"
+  supervisors: NONE
+  canBeAntag: true
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
+- type: startingGear
+  id: SiteAdminstratorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    back: ClothingBackpackDuffelHolding
+    mask: ClothingMaskGasDeathSquad
+    eyes: ClothingEyesHudOmni
+    ears: ClothingHeadsetAltCommand
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitDeathsquad
+    shoes: ClothingShoesSpaceNinja
+    id: AdminPDA
+    pocket1: EnergySword
+    pocket2: LuxuryPen
+    belt: ClothingBeltSheath
+  storage:
+    back:
+    - WeaponPulsePistol
+    - WeaponRevolverMateba
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - ToolDebug # spanish army knife
+    - WelderExperimental
+    - Hypospray
+    - DeathAcidifierImplanter # crew will try to steal their amazing hardsuits
+    - FreedomImplanter
+    - NuclearGrenade
+    - MedkitCombat
+    - MedkitCombat
+    - PillAmbuzolPlus
+    - PillAmbuzolPlus
+    - CigaretteOmnizine
+    - CigaretteOmnizine
+    - CigaretteOmnizine
+    - ChemicalSynthesisKit
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - FlippoEngravedLighter
+  inhand:
+  - WeaponPulseRifle
+  - BriefcaseBrown
